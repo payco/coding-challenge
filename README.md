@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Payco Coding Challenge
+
+Please read the instructions carefully. 
+
+This is an empty [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
+
+You will use this project for your coding challenge, so please clone this repository to your machine. 
+
+Your machine should already have NodeJS and the Node Package Manager (NPM) installed.
+
+Your task is to convert a Figma UI design into a HTML page, using a web component library developed by Amazon called [Cloudscape Design System (CDS)](https://cloudscape.design/components/).
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and open the terminal or your IDE in the repository root.
+
+Second, install the dependencies using the node package manager:
+
+```bash
+npm install
+```
+
+Third, run the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The empty project has the example code from [this page in the CDS documentation](https://cloudscape.design/get-started/integration/using-cloudscape-components/).
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates in the browser as you edit and save the file.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Submission
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The only file you need to submit is `pages/index.js`, so please do not modify any other file.
+
+Please send the completed Javascript file to a member of the Payco team by email.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Take a look at the following resources which may help you:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Amazon CDS Get Started](https://cloudscape.design/get-started/guides/get-started-dev/)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial
